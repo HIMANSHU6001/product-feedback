@@ -21,7 +21,7 @@ const FeedbackStepSix: React.FC<FeedbackStepSixProps> = ({ onSubmit }) => {
       </p>
       
       <p className="text-gray-600 mb-8">
-        We appreciate the time you've taken to share your thoughts with us.
+        We appreciate the time you&apos;ve taken to share your thoughts with us.
       </p>
       
       <button 

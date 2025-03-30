@@ -44,6 +44,8 @@ const FeedbackStepTwo: React.FC<FeedbackStepTwoProps> = ({ likedMost, updateFeed
         companySize: ""
       };
     } catch (e) {
+      console.log("Error parsing likedMost:", e);
+      
       return {
         userType: "",
         occupation: "",

@@ -5,7 +5,7 @@ const uri = process.env.MONGODB_URI || ""; // Add your MongoDB Atlas connection 
 const client = new MongoClient(uri);
 
 async function connectToDatabase() {
-  //@ts-ignore
+  //@ts-expect-error No inbuilt types defined
   if (!client.isConnected) {
     await client.connect();
   }

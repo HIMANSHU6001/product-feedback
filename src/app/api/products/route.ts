@@ -14,7 +14,7 @@ async function connectToDatabase() {
   return client.db("product-feedback"); // Replace with your database name
 }
 
-export async function GET(req: NextRequest) {
+export async function GET() {
   try {
     const db = await connectToDatabase();
     const productsCollection = db.collection("products");

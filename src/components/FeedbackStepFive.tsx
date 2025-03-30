@@ -12,7 +12,7 @@ const FeedbackStepFive: React.FC<FeedbackStepFiveProps> = ({
   return (
     <div className="py-4 animate-fade-in">
       <h2 className="text-xl font-semibold text-gray-800 mb-6">
-        Anything else you'd like to share?
+        Anything else you&apos;d like to share?
       </h2>
 
       <textarea
